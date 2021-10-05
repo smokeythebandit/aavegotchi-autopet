@@ -5,7 +5,8 @@ import { ethers } from "ethers";
 const TOKEN_IDS = [
   22536,
   20689,
-  15090
+  15090,
+  21375
 ];
 
 const RPC_ENDPOINT = "https://polygon-rpc.com";
