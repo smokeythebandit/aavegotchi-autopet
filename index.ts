@@ -39,8 +39,8 @@ provider.ready.then(() => {
   const contractWithSigner = contract.connect(wallet);
 
   const options = {
-    gasLimit: 88000,
-    gasPrice: ethers.utils.parseUnits("12.0", "gwei"),
+    gasLimit: 880000,
+    gasPrice: ethers.utils.parseUnits("30.0", "gwei"),
   };
 
   contractWithSigner
